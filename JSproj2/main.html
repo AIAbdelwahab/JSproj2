@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+     <h1>Word Counter</h1>
+
+     <h2>This webpage counts words</h2>
+
+     <p> <label for="words">Input your words here </label></p>
+
+     <div class="container ">
+        <div class="backdrop">
+          <div class="highlights" id="highlights">
+        
+          </div>
+        </div>
+        <textarea name="words" id="words" cols="50"></textarea>
+      </div>
+     <button onclick="countWords()" >show me count</button>
+
+     <br><br>
+
+     <h3>the longest word is <span id="value"> </span> and the word count is <span id="count"></span></h3>
+        
+        <script src="./index.js" async defer></script>
+    </body>
+</html>
