@@ -23,8 +23,8 @@ function countWords(){
 
    }
 
-   document.getElementById("value").innerHTML =longest;
-   document.getElementById("count").innerHTML =count;
+   document.getElementById("value").innerHTML ="The longest word is" + " "  + longest;
+   document.getElementById("count").innerHTML ="and the word count is" + " " + count;
 
    count = 0;
 
